@@ -1,0 +1,30 @@
+baseURL : 'https://guzpr.github.io'
+languageCode : 'en-us'
+title : 'Guzpr Stash'
+theme : 'paper'
+enableEmoji: true
+
+menu:
+  main:
+  - identifier: about
+    name: about me
+    url: /about/
+  - name: search
+    url: /search/
+
+#Seach page config
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+params:
+    homeInfoParams:
+        Title: Hello! 🌊
+        Content: My journey stash into software engineering world. Mainly talking about backend stuff
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/guzpr"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/bagus-prasetyo/"
